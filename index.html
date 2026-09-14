@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Click the buttons below to view the reflection documents!</p>
+    <button onclick="showReflection()">01 - JS History</button>
+    <pre id="content"></pre>
+  
+    <script>
+      function showReflection() {
+        fetch("reflections/01-js-history.md")
+          .then(response => response.text())
+          .then(text => {
+            document.getElementById("content").textContent = text;
+          });
+      }
+    </script>
+  </body>
+</html>
