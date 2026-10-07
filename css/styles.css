@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --default-color-light: #efede3;
+  --default-color-dark: #212121;
+  --highlight-color-blue: #0875d4;
+  --default-text-font: 'Raleway';
+}
+
+body {
+  margin: 2rem;
+  color: var(--highlight-color-dark);
+  font-family: var(--default-text-font);
+  background-color: var(--default-color-light);
+}
+
+h1 {
+  font-size: 24pt;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: medium;
+  font-weight: 400;
+  font-style: italic;
+  padding-bottom: 50px;
+}
+
+.link-button {
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--highlight-color-blue);
+  border: 3px solid var(--highlight-color-blue);
+}

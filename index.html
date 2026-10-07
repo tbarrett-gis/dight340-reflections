@@ -3,21 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <script defer src="main.js"></script> -->
+    <title>DIGHT 340 Reflection Directory</title>
   </head>
   <body>
-    <p>Click the buttons below to view the reflection documents!</p>
-    <button onclick="showReflection()">01 - JS History</button>
-    <pre id="content"></pre>
-  
-    <script>
-      function showReflection() {
-        fetch("reflections/01-js-history.md")
-          .then(response => response.text())
-          .then(text => {
-            document.getElementById("content").textContent = text;
-          });
-      }
-    </script>
+    <h1>DIGHT 340 Reflection Directory</h1>
+    <h2>This webpage is lists all reflections pertaining to this class, and will be populated with the completed assignmentsas the semester rolls on.</h2>
+    <a href="./reflections/01-js-history.md" class="link-button">Reflection #1: JavaScript History</a>
   </body>
 </html>

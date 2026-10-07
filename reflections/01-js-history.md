@@ -1,5 +1,5 @@
 ---
-title: 'Reflection #1'
+title: 'Reflection #1: JavaScript History'
 date: 2026-09-14
 ---
 
